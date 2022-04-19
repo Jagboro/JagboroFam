@@ -1,0 +1,64 @@
+<html lang="en-US">
+<head>
+    <title>Survey Form for Web Developers</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="survey form.css">
+
+</head>
+
+<body>
+    <header>
+<h1 id="title"> WEB DEVELOPER'S</h1>
+<p id="description">This form is to help assign 
+    the right job that matches with your skills.<br>
+Fill with all sincerity.</p>
+</header>
+<form id="survey-form">
+    <fieldset>
+    <label for="name" id="name-label"><b>Fullname</b> </label><br>
+    <input type="text" id="name" name="Fullname" placeholder="Fullname" required="required"> <br>
+   
+    <label for="email" id="email-label"> <b>Email</b> </label><br>
+   <input type="email" id="email" name="email" placeholder="email" required> <br>
+   <label for="number" id="number-label"><b>Age</b> </label><br>
+   <input type="number" id="number" min="18" max="65" placeholder="18 - 65 years only " reqiured> <br>
+
+   <b>Qualification</b> <br>
+   <select id="dropdown" placeholder="qualification">
+       <option>Select</option>
+       <option>School Livivng Certificate</option>
+      <option >High School Certificate</option>
+      <option>Undergraduate</option>
+      <option>Degree (B.sc./B.a/B.eng etc)</option>
+      <option>Master Degree</option>
+      <option>P.H.D</option>
+      <option>Professoral  Degree</option> <br>
+   </select> <br>
+
+   <label for="sex"> <b>SEX</b></label> <br>
+   <input type="radio" name="sex" value="male"> Male <br>
+   <input type="radio" name="sex" value="female"> Female <br>
+    
+   <b>Area Of Specialization(click all that apply)</b> <br>
+   <input type="checkbox" name="specialization" value="html"> HTML <br>
+   <input type="checkbox" name="specialization" value="css"> CSS  <br>
+   <input type="checkbox" name="specialization" value="javascript"> JAVASCRIPT <br>
+   <input type="checkbox" name="specialization" value="c+"> C+ <br>
+   <input type="checkbox" name="specialization" value="c++/c#"> C++/C# <br>
+   <input type="checkbox" name="specialization" value="python"> PYTHON/R <br>
+   <input type="checkbox" name="specialization" value="others"> OTHERS  <br>
+   <label for="comment"><b>Any Comment or Suggestions?<b></b></label>
+   <textarea name="comment">ADD ALL COMMENT HERE</textarea> <br>
+   <button type="submit" value="submit" id="submit"><b>SUBMIT</b></button>
+   </fieldset>
+</form>
+
+
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
+
+
